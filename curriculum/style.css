@@ -1,0 +1,14 @@
+body{
+    background-color: #f4fecb;
+}
+h1{
+   color: rgb(231, 70, 235);
+}
+p{
+    text-align: justify;
+}
+th{
+    color: red;
+    font-weight: bold;
+    font-family: Arial;
+}
