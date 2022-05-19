@@ -1,3 +1,60 @@
-.img-concepto{
-  width: 20px;
+*{
+  padding: 0;
+  margin: 0;
+}
+nav>a{
+  padding: 20px auto;
+  text-decoration: none;
+}
+body{
+  background-color: #e9ecf4;
+}
+header{
+  background-color: red;
+  font-family: arial;
+  padding: 10px ;
+  grid-area:my-header;
+}
+nav{
+  background-color: white;
+  clear: right;
+  grid-area:my-nav;
+}
+section{
+  background-color: white;
+  grid-area:my-section;
+}
+aside{
+  background-color: white;
+  grid-area:my-aside;
+}
+footer{
+  background-color: red;
+  grid-area:my-footer;
+}
+#imgconcepto{
+  height: 50px;
+  float: right;
+
+}
+#imgempresa{
+  height: 200px;
+  float: right;
+}
+#contenedor{
+  width: 90%;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 100%;
+  grid-template-areas: "my-header" "my-nav" "my-section" "my-aside" "my-footer"
+
+}
+
+@media(min-width:600px) and (max-width:1000px){
+  #contenedor{
+    grid-template-columns: 70% 30%;
+    grid-template-areas: "my-header my-header" "my-nav my-nav" "my-section my-aside" "my-footer my-footer"
+
+  }
 }
