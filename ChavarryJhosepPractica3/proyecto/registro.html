@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/ChavarryJhosepPractica3/css/registro.css">
+  <title>Document</title>
+</head>
+<body>
+  <img src="/ChavarryJhosepPractica3/img/Academy_Award.png" alt="oscar">
+  <div id="Contenedor">
+    <h2>Encuesta de cine: Nominadas al Oscar 2018</h2>
+    <form id="formulario1" name="formulario1" method="post" action="">
+      <fieldset id="datos_personales">
+        <legend>Datos Personales</legend>
+        <label for="nombre">Nombre</label><br>
+        <input type="text" name="nombre" id="nombre"><br>
+        <label for="dni">DNI</label><br>
+        <input type="text" name="dni" id="dni" maxlength="9"><br>
+        <label for="edad">Edad</label>
+        <input type="text" name="edad" id="edad" size="2" maxlength="2"><br>
+      </fieldset>
+      <fieldset id="mejor_película">
+        <legend>Mejor Pelicula</legend>
+        <input type="radio" name="pelicula" value="11"> Call Me By Your Name<br>
+        <input type="radio" name="pelicula" value="22"> Dunkerque<br>
+        <input type="radio" name="pelicula" value="33"> Déjame salir<br>
+      </fieldset>
+      <fieldset id="peliculas_novistas">
+        <legend>Seleccione las películas que no hayas visto</legend>
+        <input type="radio" name="pelicula" value="11"> El hilo invisible<br>
+        <input type="radio" name="pelicula" value="22"> El instante más oscuro<br>
+        <input type="radio" name="pelicula" value="33"> Tres anuncnios a las afueras<br>
+        <input type="radio" name="pelicula" value="11"> La forma del agua<br>
+        <input type="radio" name="pelicula" value="11"> Lady Bird<br>
+      </fieldset>
+      <fieldset>
+        <legend>Argumento de tu película preferida</legend>
+        <textarea name="argumento" id="argumento" cols="50" rows="14"></textarea>
+      </fieldset>
+      <br>
+      <input type="reset" value="Borrar Formulario"> <input type="submit" value="Enviar">
+    </form>
+  </div>
+</body>
+</html>

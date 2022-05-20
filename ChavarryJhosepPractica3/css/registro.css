@@ -1,0 +1,14 @@
+img{
+  float: left;
+  width: 425px;
+}
+div{
+  border: black 2px solid;
+}
+form{
+  background-color: blue;
+  font-family: arial;
+}
+legend{
+  font-size: 25px;
+}

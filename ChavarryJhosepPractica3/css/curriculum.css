@@ -1,0 +1,49 @@
+body{
+  font-family: arial;
+  background-color: #fffddd;
+}
+#datos{
+  padding-top: 0px;
+  float: right;
+}
+h1{
+  text-align: center;
+  background-color: #7a7267;
+  color: white;
+}
+h2,h3,section p{
+  padding: 5px 20px;
+  font-style: italic;
+}
+h2{
+  font-size: 30px;
+}
+section h3{
+  clear: right;
+  padding: 5;
+  font-style: italic;
+}
+#tabla1,#tabla2{
+    margin: 10px auto;
+    width: 600px;
+}
+table{
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td{
+    padding: 10px;
+    border: #7a7267 solid 1px;
+}
+tr:nth-child(even){
+    background-color: #f5e0c4;
+}
+tbody tr:hover{
+    background-color: #fffddd;
+}
+thead{
+    background-color: #faca88;
+    color: black;
+}

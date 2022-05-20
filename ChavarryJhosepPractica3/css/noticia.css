@@ -1,0 +1,49 @@
+#caja1{
+    background-color: red;
+    margin: 0px;
+    text-align: center;
+    color: white;
+
+}
+
+#menu{
+    background-color: gray;
+}
+
+h2{
+    margin: 10px 0px 0px 0px;
+    color: red;
+    font-size: 15px;
+
+}
+
+h3{
+    font-size: 20px;
+    margin-top: 0px;
+    font-weight:900;
+    font-family: arial;
+
+}
+
+a{
+    color: white;
+    margin: 0px;
+    padding: 0px 15px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: arial;
+}
+
+#imagen{
+    width: 400px;
+    float: right;
+    margin-left: 10px;
+
+}
+
+p{
+    background-color: white;
+    text-align: justify;
+    margin: 10px;
+
+}

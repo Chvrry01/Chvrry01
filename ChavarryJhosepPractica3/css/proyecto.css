@@ -1,0 +1,165 @@
+/*
+Grid general
+*/
+body{
+  font-family: arial;
+}
+header{
+  background-color: #faca88;
+  grid-area: my-header;
+}
+nav{
+  background-color: #7a7267;
+  grid-area: my-nav;
+  height: 50px;
+}
+section{
+  background-color: white;
+  grid-area: my-section;
+}
+aside{
+  background-color: #fbead3;
+  grid-area: my-aside;
+}
+footer{
+  background-color: #faca88;
+  grid-area: my-footer;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-template-areas: "my-header my-header" "my-nav my-nav" "my-section my-aside" "my-footer my-footer" ;
+}
+/*
+Diseño header
+*/
+#foto-1{
+  width: 150px;
+  float: left;
+  padding: 10px 50px;
+}
+#menu{
+  float: right;
+  padding: 10px;
+}
+/*
+Diseño nav
+*/
+nav a[href="proyecto.html"]{
+  background-color: #faca88;
+}
+nav a{
+  font-size: 22px;
+  text-decoration: none;
+  color: black;
+  padding: 0px 14px 28px;
+}
+/*
+Diseño section
+*/
+a img{
+  margin-top: 10px;
+  width: 250px;
+}
+h2{
+  font-size: 30px;
+  padding-left: 24px;
+}
+h4{
+  text-align: center;
+  background-color: #7a7267;
+  color: white;
+  border-radius: 20%;
+}
+section h3{
+  clear: right;
+  padding: 5;
+  font-style: italic;
+}
+section h4{
+  margin: auto;
+}
+section h2{
+  grid-area: titulo;
+}
+#proyecto1{
+  margin: 0px auto;
+  grid-area: proyecto1;
+}
+#proyecto2{
+  margin: 0px auto;
+  grid-area: proyecto2;
+}
+#proyecto3{
+  margin: 0px auto;
+  grid-area: proyecto3;
+}
+#proyecto4{
+  margin: 0px auto;
+  grid-area: proyecto4;
+}
+#proyecto5{
+  margin: 0px auto;
+  grid-area: proyecto5;
+}
+section{
+  display: grid;
+  grid-template-rows: 100px;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-areas: "titulo titulo titulo titulo titulo" "proyecto1 proyecto2 proyecto3 proyecto4 proyecto5";
+}
+
+
+/*
+Diseño aside
+*/
+#indice1,
+#enlaces-interes1{
+  background-color: #faca88;
+  margin: 10px;
+  padding: 5px;
+}
+aside a{
+  text-decoration: none;
+  color: black;
+}
+/*
+Diseño footer
+*/
+#foto-2{
+  width: 120px;
+  padding: 10px 30px;
+  grid-area: foto;
+}
+#info-contacto{
+  grid-area: infoc;
+}
+#siguenos-en{
+  grid-area: siguen;
+}
+#enlaces-intereses2{
+  grid-area: enlacesi;
+}
+#indice2{
+  grid-area: indice;
+}
+#info-pag{
+  grid-area: infop;
+}
+footer{
+  display: grid;
+  grid-template-columns: 20% 24% 20% 20% 16%;
+  grid-template-areas: "foto infoc siguen enlacesi indice" "infop infop infop infop infop";
+}
+ul{
+  padding: 0px 25px;
+  font-size: 15px;
+}
+#info-pag{
+  background-color: #7a7267;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
