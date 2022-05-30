@@ -22,7 +22,7 @@ function guardarDato(){
 function recuperarDato(){
   var nombre = document.getElementById("nombre").value;
   localStorage.getItem(nombre);
-  document.getElementById("movil").value = localStorage.getItem(nombre);
+  document.getElementById("movil").value = localStorage.getItem(movil);
 }
 
 function eliminarDatos(){
@@ -43,7 +43,7 @@ function actualizarDatos(){
   } else{
     for(var i = 0; i <= localStorage.length - 1; i++){
       var key = localStorage.key(i);
-      registro += '<li>' + '<span class="nom">' + key + '</span>' + '<span class = "nom">' + localStorage.getItem(key) + '</span>' + '</li><br>';
+      registro += '<li>' + '<span class="nom"> ' + key + ' </span>' + ' <span class = "nom"> ' + localStorage.getItem(key) + ' </span> ' + ' </li><br>';
     }
   }
   document.getElementById('contactos').innerHTML = registro;
